@@ -145,3 +145,24 @@ footer i {
     font-size: 1.3rem;
     padding-right: .2rem;
 }
+
+div.fav:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+.seconda {
+    display: none;
+}
+
+article:hover img.prima {
+    display: none;
+}
+
+article:hover img.seconda {
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+    height: 100%
+}
