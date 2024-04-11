@@ -20,7 +20,10 @@ body {
 
 header {
     background-color: #ff6900;
-
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 
 header img {
@@ -42,7 +45,7 @@ section.prodotti {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 3rem 16rem;
+    padding: 8rem 16rem;
 }
 
 article {
