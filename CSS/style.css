@@ -12,9 +12,9 @@ body {
 
 .nav-disp {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 16rem;
     color: white;
 }
 
@@ -59,4 +59,28 @@ article img {
 
 footer {
     background-color: #1a1a1a;
+}
+
+h2 {
+    padding: 1rem 0 .5rem 0;
+    font-weight: 700;
+}
+
+footer .title-right {
+    font-size: .9rem;
+}
+
+footer .title-left {
+    font-size: 1.2rem;
+}
+
+footer li {
+    font-size: .9rem;
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+
+footer i {
+    font-size: 1.3rem;
+    padding-right: .2rem;
 }
