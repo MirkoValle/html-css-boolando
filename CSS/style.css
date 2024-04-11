@@ -47,7 +47,7 @@ section.prodotti {
 
 article {
     width: calc((100% / 3) - 1.5rem);
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     position: relative;
 }
 
@@ -75,7 +75,7 @@ article .fav {
 
 article .discount {
     position: absolute;
-    bottom: 122px;
+    bottom: 145px;
     left: 0;
     height: 25px;
     width: 50px;
@@ -87,18 +87,35 @@ article .discount {
 
 article .sost {
     position: absolute;
-    bottom: 122px;
+    bottom: 145px;
     left: 55px;
     height: 25px;
-    width: 100px;
+    width: 105px;
     background-color: #008000;
     color: white;
     font-size: .9rem;
     font-weight: 600;
 }
 
-article .sost:last-child {
+#last-art {
     left: 0;
+}
+
+article .prezzo {
+    font-size: .9rem;
+}
+
+article .model {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+article span {
+    text-decoration: line-through;
+}
+
+article strong {
+    color: red;
 }
 
 footer {
