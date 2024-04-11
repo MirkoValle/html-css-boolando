@@ -8,3 +8,20 @@ body {
     margin: auto;
     max-width: 1920px;
 }
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff6900;
+    padding: 1rem;
+}
+
+header img {
+    width: 9rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
